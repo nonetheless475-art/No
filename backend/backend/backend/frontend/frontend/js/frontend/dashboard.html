@@ -1,0 +1,26 @@
+<!-- inside body of dashboard.html, after trade section -->
+
+<div id="depositSection">
+  <h3>Deposit</h3>
+  <input type="number" id="depositAmount" placeholder="Amount"/>
+  <select id="depositMethod">
+    <option value="USDT_BEP20">USDT BEP20</option>
+    <option value="USDT_TRC20">USDT TRC20</option>
+  </select>
+  <button id="depositBtn">Deposit</button>
+</div>
+
+<div id="withdrawSection">
+  <h3>Withdraw</h3>
+  <input type="number" id="withdrawAmount" placeholder="Amount"/>
+  <select id="withdrawMethod">
+    <option value="USDT_BEP20">USDT BEP20</option>
+    <option value="USDT_TRC20">USDT TRC20</option>
+  </select>
+  <button id="withdrawBtn">Withdraw</button>
+</div>
+
+<div id="historySection">
+  <h3>Transaction History</h3>
+  <div id="historyList"></div>
+</div>
