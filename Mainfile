@@ -1,0 +1,22 @@
+trading‑demo/
+  backend/
+    package.json
+    server.js
+    auth.js
+    users.js
+    trade.js
+    admin.js
+  frontend/
+    index.html
+    login.html
+    signup.html
+    dashboard.html
+    admin.html
+    css/
+      styles.css
+    js/
+      login.js
+      signup.js
+      dashboard.js
+      admin.js
+  README.md
